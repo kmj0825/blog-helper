@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Colors */
+  --primary: #04C73C;
+  --primary-hover: #4E9A06;
+  --accent: #20D361;
+  --accent-light: #E8F5E9;
+
+  /* Backgrounds */
+  --background: #FFFFFF;
+  --surface: #F8FAF8;
+  --foreground: #1A1A1A;
+  
+  /* Text */
+  --text-primary: #1A1A1A;
+  --text-secondary: #666666;
+  
+  /* UI Elements */
+  --border: #E5E7EB;
+  
+  /* Default Next.js vars override or mapping */
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: Consolas, monospace;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  
+  --color-border: var(--border);
+  
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+

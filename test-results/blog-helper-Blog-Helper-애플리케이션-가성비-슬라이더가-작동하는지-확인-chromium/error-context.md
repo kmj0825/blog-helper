@@ -1,0 +1,131 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - heading "B Blog Helper" [level=1] [ref=e5]:
+        - generic [ref=e6]: B
+        - text: Blog Helper
+      - generic [ref=e7]: Beta
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - heading "오늘의 경험을 기록해볼까요?" [level=2] [ref=e10]
+        - paragraph [ref=e11]:
+          - text: 사진을 올리고 키워드만 선택하면,
+          - text: 블로그 글이 뚝딱 완성됩니다.
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "1"
+          - heading "사진 선택" [level=3] [ref=e15]
+        - generic [ref=e16]:
+          - heading "사진 업로드(0/10)" [level=3] [ref=e18]:
+            - text: 사진 업로드
+            - generic [ref=e19]: (0/10)
+          - generic [ref=e20] [cursor=pointer]:
+            - img [ref=e22]
+            - paragraph [ref=e25]: 사진을 선택해주세요
+            - paragraph [ref=e26]: 최대 10장까지 가능해요
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: "2"
+          - heading "경험 입력" [level=3] [ref=e30]
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - heading "🍽️ 첫인상 (복수 선택)" [level=4] [ref=e33]
+            - generic [ref=e34]:
+              - button "깔끔함" [ref=e35]
+              - button "아늑함" [ref=e36]
+              - button "트렌디" [ref=e37]
+              - button "복잡함" [ref=e38]
+              - button "이국적" [ref=e39]
+              - button "친근함" [ref=e40]
+          - generic [ref=e41]:
+            - heading "⭐ 맛 평가" [level=4] [ref=e42]
+            - generic [ref=e43]:
+              - button "😫 1점" [ref=e44]:
+                - generic [ref=e45]: 😫
+                - generic [ref=e46]: 1점
+              - button "🤔 2점" [ref=e47]:
+                - generic [ref=e48]: 🤔
+                - generic [ref=e49]: 2점
+              - button "🙂 3점" [ref=e50]:
+                - generic [ref=e51]: 🙂
+                - generic [ref=e52]: 3점
+              - button "😋 4점" [ref=e53]:
+                - generic [ref=e54]: 😋
+                - generic [ref=e55]: 4점
+              - button "😍 5점" [ref=e56]:
+                - generic [ref=e57]: 😍
+                - generic [ref=e58]: 5점
+          - generic [ref=e59]:
+            - heading "💰 가성비" [level=4] [ref=e60]
+            - generic [ref=e61]:
+              - generic [ref=e62]:
+                - slider [active] [ref=e66] [cursor=pointer]: "80"
+                - generic [ref=e67]:
+                  - generic [ref=e68]: "0"
+                  - generic [ref=e69]: "100"
+              - generic [ref=e70]:
+                - generic [ref=e71]: 비쌈
+                - generic [ref=e72]: 적당함
+                - generic [ref=e73]: 가성비 굿
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - heading "👍 좋았던 점" [level=4] [ref=e77]
+              - generic [ref=e78]:
+                - generic [ref=e79] [cursor=pointer]:
+                  - checkbox "친절한 서비스" [ref=e81]
+                  - generic [ref=e83]: 친절한 서비스
+                - generic [ref=e84] [cursor=pointer]:
+                  - checkbox "빠른 서빙" [ref=e86]
+                  - generic [ref=e88]: 빠른 서빙
+                - generic [ref=e89] [cursor=pointer]:
+                  - checkbox "주차 편리" [ref=e91]
+                  - generic [ref=e93]: 주차 편리
+                - generic [ref=e94] [cursor=pointer]:
+                  - checkbox "넓은 좌석" [ref=e96]
+                  - generic [ref=e98]: 넓은 좌석
+                - generic [ref=e99] [cursor=pointer]:
+                  - checkbox "분위기" [ref=e101]
+                  - generic [ref=e103]: 분위기
+                - generic [ref=e104] [cursor=pointer]:
+                  - checkbox "위치 접근성" [ref=e106]
+                  - generic [ref=e108]: 위치 접근성
+            - generic [ref=e109]:
+              - heading "👎 아쉬운 점" [level=4] [ref=e110]
+              - generic [ref=e111]:
+                - generic [ref=e112] [cursor=pointer]:
+                  - checkbox "웨이팅 김" [ref=e114]
+                  - generic [ref=e116]: 웨이팅 김
+                - generic [ref=e117] [cursor=pointer]:
+                  - checkbox "좁은 공간" [ref=e119]
+                  - generic [ref=e121]: 좁은 공간
+                - generic [ref=e122] [cursor=pointer]:
+                  - checkbox "시끄러움" [ref=e124]
+                  - generic [ref=e126]: 시끄러움
+                - generic [ref=e127] [cursor=pointer]:
+                  - checkbox "가격 비쌈" [ref=e129]
+                  - generic [ref=e131]: 가격 비쌈
+                - generic [ref=e132] [cursor=pointer]:
+                  - checkbox "양 적음" [ref=e134]
+                  - generic [ref=e136]: 양 적음
+                - generic [ref=e137] [cursor=pointer]:
+                  - checkbox "주차 어려움" [ref=e139]
+                  - generic [ref=e141]: 주차 어려움
+          - generic [ref=e143]:
+            - heading "💬 한줄평 (선택 또는 입력)" [level=4] [ref=e144]
+            - generic [ref=e145]:
+              - button "\"또 오고 싶어요\"" [ref=e146]
+              - button "\"데이트 추천\"" [ref=e147]
+              - button "\"가족 식사 굿\"" [ref=e148]
+              - button "\"혼밥 가능\"" [ref=e149]
+              - button "\"회식 장소 강추\"" [ref=e150]
+            - textbox "직접 입력하기..." [ref=e151]
+      - button "블로그 글 생성하기" [ref=e153]:
+        - img [ref=e154]
+        - text: 블로그 글 생성하기
+  - button "Open Next.js Dev Tools" [ref=e162] [cursor=pointer]:
+    - img [ref=e163]
+  - alert [ref=e166]
+```
